@@ -1,0 +1,92 @@
+
+.AboutMe{  
+    margin-top: 100px;
+    width: 800px; /* Example width */
+    height: 500px; /* Example height */
+  }
+  .Container{
+    display: flex;
+    flex-direction:column;
+    position: relative;
+  }
+  .ProfilePic {
+    display: flex; /* Ensures flex properties work */
+    justify-content: flex-end; /* Align to the end of flex container (right side) */
+    align-self: flex-end; /* Align to the end of flex container (right side) */
+    margin-top: -300px; /* Example margin */
+    margin-left: 600px; 
+    width: 25%;
+    height: auto;
+    border: 2px solid #fff; /* White border for the frame */
+    border-radius: 50%; /* Makes the border circular */
+    overflow: hidden; /* Ensures the image stays within the rounded border */
+  }
+  .AboutMe:hover {
+    border: 2px solid rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px rgba(234, 234, 234, 0.5); /* Example box shadow on hover */
+  }
+  .info{
+    margin-top: -20px;
+  }
+  .text{
+    font-size: 20px;
+    width:auto;
+    display: inline-block;
+  }
+  .Response{
+    font-size: 18px;
+    display: inline-block;
+  }
+  .Reactlogo{
+    width: 50px;
+    height: auto; 
+    display: inline-block;
+  }
+  .HTMLlogo{
+    width: 30px;
+    margin-left: 5px;
+    height: auto; 
+    display: inline-block;
+  }
+  .CSSlogo{
+    margin-left: 10px;
+    width: 30px;
+    height: auto; 
+    display: inline-block;
+  }
+  .Javalogo{
+    width: 60px;
+    height: 40px; 
+    display: inline-block;
+  }
+  .CLogo{
+    width: 30px;
+    height: auto; 
+    display: inline-block;
+  }
+  .VSCode{
+    margin-left: 10px;
+    width: 25px;
+    height: auto; 
+    display: inline-block;
+  }
+  .VSStudio{
+    margin-left: 10px;
+    width:30px;
+    height: auto; 
+    display: inline-block;
+  }
+  .Github{
+    width: 50px;
+    height: auto; 
+    display: inline-block;
+  }
+  .Unity{
+    width: 50px;
+    height: auto; 
+    display: inline-block;
+  }
+  .border{
+    margin-left:0 ;
+    width: 500px;
+  }
