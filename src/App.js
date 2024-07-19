@@ -13,6 +13,8 @@ import TCWPPImg from '../src/Images/TCWPP.png';
 import ShaqProfilePic from '../src/Images/shaq.jpg';
 //videos
 import WebDemoVideo from './Videos/WebDemo.mp4';
+import AddvonVideo from './Videos/AddvoneDemo.mp4'
+import TCWPPDemo from './Videos/TCWPPDemo.mp4';
 
 function App() {
   const imageUrl =ShaqProfilePic;
@@ -29,6 +31,8 @@ function App() {
       <div className="Cards">
       <Cards title="RecipeSearch Website" img={WebProject} videoSrc={WebDemoVideo}></Cards>
       <Cards title="CrocBash" img={CrocBashImg} videoSrc="https://www.youtube.com/embed/ImPOPqhTMcY"/>
+      <Cards title="The Child Who Picked Pebbles" img={TCWPPImg} videoSrc={TCWPPDemo}></Cards>
+      <Cards title="AddvonDemo" img={addvonImg} videoSrc={AddvonVideo}></Cards>
       </div>
     </div>
     <hr></hr>
