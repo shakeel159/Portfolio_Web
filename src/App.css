@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: hsl(0, 0%, 0%);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Page{
+  flex: 1;
+  background-color: hsl(0, 0%, 25%);
+  max-width: 80%; /* Example maximum width */
+  margin: 0 auto; /* Center align horizontally */
+  padding: 20px; /* Example padding */
+  border-radius: 8px; /* Example border radius */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.NameBox {
+  border: 2px solid rgba(0, 0, 0, 0);
+  height: 60px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.Btns{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+
+  border: none;
+  cursor: pointer;
+}
+.hide-background {
+  background-color: transparent !important; /* Set background to transparent */
+  color: inherit; /* Inherit text color */
+}
+.Projects{
+  margin-bottom: 100px;
+}
+.banners{
+  background-color: hsl(240, 4%, 63%);
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
