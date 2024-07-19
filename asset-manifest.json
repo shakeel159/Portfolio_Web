@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio_Web/static/css/main.f855e6bc.css",
-    "main.js": "/Portfolio_Web/static/js/main.504b86e9.js",
+    "main.css": "/Portfolio_Web/static/css/main.f5c4d38b.css",
+    "main.js": "/Portfolio_Web/static/js/main.01b995fb.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio_Web/static/js/453.1407b060.chunk.js",
+    "static/media/VSCode.png": "/Portfolio_Web/static/media/VSCode.287ee57172715fc70ea4.png",
+    "static/media/css-logo.png": "/Portfolio_Web/static/media/css-logo.3a16864308d0b64da967.png",
+    "static/media/JavaScript-Logo.png": "/Portfolio_Web/static/media/JavaScript-Logo.e7eb54ae40636987cc95.png",
+    "static/media/VSStudio.png": "/Portfolio_Web/static/media/VSStudio.3aa02ea15deb85dacb18.png",
+    "static/media/react-logo.png": "/Portfolio_Web/static/media/react-logo.daae3e094212712ac94b.png",
+    "static/media/csharp-icon.png": "/Portfolio_Web/static/media/csharp-icon.08ffa1ea56aab6925519.png",
+    "static/media/html-logo.png": "/Portfolio_Web/static/media/html-logo.b39a12ac47cb0bc32b3f.png",
+    "static/media/Github.png": "/Portfolio_Web/static/media/Github.d602c8763da57ff3f186.png",
+    "static/media/Unity.png": "/Portfolio_Web/static/media/Unity.06d61642377accc8b595.png",
+    "static/media/shaq.jpg": "/Portfolio_Web/static/media/shaq.1c8a30810eca4a47ec61.jpg",
     "static/media/logo.svg": "/Portfolio_Web/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio_Web/index.html",
-    "main.f855e6bc.css.map": "/Portfolio_Web/static/css/main.f855e6bc.css.map",
-    "main.504b86e9.js.map": "/Portfolio_Web/static/js/main.504b86e9.js.map",
+    "main.f5c4d38b.css.map": "/Portfolio_Web/static/css/main.f5c4d38b.css.map",
+    "main.01b995fb.js.map": "/Portfolio_Web/static/js/main.01b995fb.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio_Web/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.504b86e9.js"
+    "static/css/main.f5c4d38b.css",
+    "static/js/main.01b995fb.js"
   ]
 }
