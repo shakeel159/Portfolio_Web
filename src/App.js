@@ -17,7 +17,6 @@ import AddvonVideo from './Videos/AddvoneDemo.mp4'
 import TCWPPDemo from './Videos/TCWPPDemo.mp4';
 
 function App() {
-  const imageUrl =ShaqProfilePic;
   return (
   <>
   <div className="Page">
@@ -29,10 +28,17 @@ function App() {
     <div className="Projects">
       <h1 className='banners'>Projects</h1>
       <div className="Cards">
-      <Cards title="RecipeSearch Website" img={WebProject} videoSrc={WebDemoVideo}></Cards>
-      <Cards title="CrocBash" img={CrocBashImg} videoSrc="https://www.youtube.com/embed/ImPOPqhTMcY"/>
-      <Cards title="The Child Who Picked Pebbles" img={TCWPPImg} videoSrc={TCWPPDemo}></Cards>
-      <Cards title="AddvonDemo" img={addvonImg} videoSrc={AddvonVideo}></Cards>
+      <Cards title="RecipeSearch Website" img={WebProject} videoSrc={WebDemoVideo} 
+      text="Search or Browse through  my personaly created website to Find your favorite foods and the recipes to make them at home."></Cards>
+      <Cards title="CrocBash" img={CrocBashImg} videoSrc="https://www.youtube.com/embed/ImPOPqhTMcY" 
+      text="VR Game Project with Collaboration with other Columbia College Chicago Students to create VR interactive Game"/>
+      <Cards title="The Child Who Picked Pebbles" img={TCWPPImg} videoSrc={TCWPPDemo} 
+      text="collaborative project for Columbia Collage Chicago capstone project, creating a open-world 2D game focusing
+      on exploration, trading and other rpg elements."></Cards>
+      <Cards title="AddvonDemo" img={addvonImg} videoSrc={AddvonVideo} 
+      text="Unity 2D game project that highlights my ability to create and work on a functioning game. 
+      Addvon is a sidescroller action/ platformer allowing player to complete small levels while fighting 
+      monsters to reach the end."></Cards>
       </div>
     </div>
     <hr></hr>

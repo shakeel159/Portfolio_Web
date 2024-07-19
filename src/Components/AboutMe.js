@@ -45,8 +45,7 @@ function AboutMe(){
 
         </div>
       <div className="info">
-        <h3 className="text">Short Describtion:</h3>
-        <p className="Response">Game Programming...</p>
+        <p className="Response" id='dis'>Front End Developer And passion for Game Development and programming </p>
       </div>
       </div>
       <div className='ProfilePic'>

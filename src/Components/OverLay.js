@@ -2,7 +2,7 @@ import React from 'react';
 import './OverLay.css'
 import exit from '../Images/logout.png';
 
-function Overlay({ title, videoSrc, onClose  }) {
+function Overlay({ title, videoSrc, onClose, text  }) {
   const isYouTube = videoSrc.includes("youtube.com");
   return (
     <div className="Overlay">
@@ -29,7 +29,7 @@ function Overlay({ title, videoSrc, onClose  }) {
           )}
         </div>
         <div className='desText'>
-            <h1>BOX....</h1>
+            <p>{text}</p>
         </div>    
       </div>
     </div>
